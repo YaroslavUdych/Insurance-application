@@ -1,0 +1,25 @@
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 3rem 20px 3rem;
+	margin-bottom: 1rem;
+}
+
+.user-name {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.active::after {
+	content: '';
+	position: absolute;
+	width: 80%;
+	height: 0.5px;
+	background-color: rgba(0, 0, 0, 0.3);
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+}

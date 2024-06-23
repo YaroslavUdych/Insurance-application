@@ -1,0 +1,42 @@
+.login-wrapper {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	padding: 50px 30px;
+	opacity: 0;
+	animation: fadeIn 0.5s linear forwards;
+}
+
+.login-header {
+	width: 100%;
+	font-size: 1.6rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	position: relative;
+}
+
+.login-icon {
+	position: absolute;
+	right: 0;
+	width: 30px;
+	height: 30px;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

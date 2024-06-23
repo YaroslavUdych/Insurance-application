@@ -1,0 +1,39 @@
+.person-details {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.person-personal-details {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.person-insuranses {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.person-info {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+.person-info-buttons {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
